@@ -1,0 +1,87 @@
+{
+   "data":{
+      "current_condition":[
+         {
+            "cloudcover":"75",
+            "humidity":"94",
+            "observation_time":"12:44 PM",
+            "precipMM":"1.5",
+            "pressure":"1022",
+            "temp_C":"16",
+            "temp_F":"61",
+            "visibility":"6",
+            "weatherCode":"296",
+            "weatherDesc":[
+               {
+                  "value":"Light rain"
+               }
+            ],
+            "weatherIconUrl":[
+               {
+                  "value":"http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0017_cloudy_with_light_rain.png"
+               }
+            ],
+            "winddir16Point":"NNW",
+            "winddirDegree":"330",
+            "windspeedKmph":"7",
+            "windspeedMiles":"4"
+         }
+      ],
+      "request":[
+         {
+            "query":"Zawiercie, Poland",
+            "type":"City"
+         }
+      ],
+      "weather":[
+         {
+            "date":"2012-09-01",
+            "precipMM":"5.1",
+            "tempMaxC":"19",
+            "tempMaxF":"66",
+            "tempMinC":"14",
+            "tempMinF":"56",
+            "weatherCode":"296",
+            "weatherDesc":[
+               {
+                  "value":"Light rain"
+               }
+            ],
+            "weatherIconUrl":[
+               {
+                  "value":"http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0017_cloudy_with_light_rain.png"
+               }
+            ],
+            "winddir16Point":"NNE",
+            "winddirDegree":"15",
+            "winddirection":"NNE",
+            "windspeedKmph":"10",
+            "windspeedMiles":"6"
+         },
+         {
+            "date":"2012-09-02",
+            "precipMM":"1.2",
+            "tempMaxC":"23",
+            "tempMaxF":"73",
+            "tempMinC":"16",
+            "tempMinF":"61",
+            "weatherCode":"116",
+            "weatherDesc":[
+               {
+                  "value":"Partly Cloudy"
+               }
+            ],
+            "weatherIconUrl":[
+               {
+                  "value":"http:\/\/www.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0002_sunny_intervals.png"
+               }
+            ],
+            "winddir16Point":"ENE",
+            "winddirDegree":"65",
+            "winddirection":"ENE",
+            "windspeedKmph":"9",
+            "windspeedMiles":"6"
+         }
+      ]
+   }
+}
