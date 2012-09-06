@@ -7,6 +7,7 @@
 #import "WorldWeatherOnlineService.h"
 #import "WeatherConditions.h"
 #import "WWOApiClient.h"
+#import "ConfigService.h"
 
 
 @implementation WorldWeatherOnlineService {
@@ -28,9 +29,13 @@
 
 - (void)currentConditions:(void (^)(WeatherConditions *))conditionsBlock
 {
-	// TODO get city and days number from config
 
-	[[WWOApiClient instance] currentConditionsIn:@"Zawiercie" forDays:2 responseHandler:^(NSDictionary *conditionsDict) {
+	// TODO URL encode Location
+
+	NSString *location = [[NSUserDefaults standardUserDefaults] stringForKey:LOCATION_SETTING_KEY];
+	NSInteger daysNumber = [[NSUserDefaults standardUserDefaults] integerForKey:DAYS_NUMBER_SETTING_KEY];
+
+	[[WWOApiClient instance] currentConditionsIn:location forDays:daysNumber responseHandler:^(NSDictionary *conditionsDict) {
 		NSDictionary *currentConditionsDict = [[[conditionsDict objectForKey:@"data"] objectForKey:@"current_condition"] lastObject];
 		NSNumber *tempC = [currentConditionsDict objectForKey:@"temp_C"];
 		NSNumber *tempF = [currentConditionsDict objectForKey:@"temp_F"];

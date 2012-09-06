@@ -16,4 +16,7 @@
 @property (strong) NSStatusItem *statusItem;
 @property(strong) SettingsWindowController *settingsWindowController;
 
+- (void)showCurrentConditions;
+
+
 @end

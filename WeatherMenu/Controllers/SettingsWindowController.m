@@ -7,6 +7,7 @@
 //
 
 #import "SettingsWindowController.h"
+#import "AppDelegate.h"
 
 @interface SettingsWindowController ()
 
@@ -29,6 +30,11 @@
     [super windowDidLoad];
     
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+}
+
+- (void)windowWillClose:(NSNotification *)notification
+{
+	[[NSApp delegate] showCurrentConditions];
 }
 
 @end
