@@ -10,6 +10,8 @@
 		BF8C7414BA32DC351615DAE5 /* WWOApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C79986296310A032E5E63 /* WWOApiClient.m */; };
 		BF8C789AE86C249A972EE830 /* WorldWeatherOnlineService.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C71F47B9C1B07CC5BE928 /* WorldWeatherOnlineService.m */; };
 		BF8C7CABC3CDA8AB2424D4D5 /* WeatherConditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C70C08BA82365624937EB /* WeatherConditions.m */; };
+		D39D4E4815F92CDD003F530A /* SettingsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39D4E4615F92CDD003F530A /* SettingsWindowController.m */; };
+		D39D4E4915F92CDD003F530A /* SettingsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D39D4E4715F92CDD003F530A /* SettingsWindowController.xib */; };
 		D3B67C2915F236FA00F4E681 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B67C2815F236FA00F4E681 /* Cocoa.framework */; };
 		D3B67C3315F236FA00F4E681 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3B67C3115F236FA00F4E681 /* InfoPlist.strings */; };
 		D3B67C3515F236FA00F4E681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B67C3415F236FA00F4E681 /* main.m */; };
@@ -37,6 +39,9 @@
 		BF8C74F0C4D9943964CF02E1 /* WorldWeatherOnlineService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldWeatherOnlineService.h; sourceTree = "<group>"; };
 		BF8C79986296310A032E5E63 /* WWOApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWOApiClient.m; sourceTree = "<group>"; };
 		BF8C7B1BB33F8CA035A7D1E3 /* WeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherService.h; sourceTree = "<group>"; };
+		D39D4E4515F92CDD003F530A /* SettingsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsWindowController.h; sourceTree = "<group>"; };
+		D39D4E4615F92CDD003F530A /* SettingsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsWindowController.m; sourceTree = "<group>"; };
+		D39D4E4715F92CDD003F530A /* SettingsWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsWindowController.xib; sourceTree = "<group>"; };
 		D3B67C2415F236FA00F4E681 /* WeatherMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B67C2815F236FA00F4E681 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D3B67C2B15F236FA00F4E681 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -94,6 +99,16 @@
 				BF8C7B1BB33F8CA035A7D1E3 /* WeatherService.h */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		BF8C762A981665CF10AD3B15 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D39D4E4515F92CDD003F530A /* SettingsWindowController.h */,
+				D39D4E4615F92CDD003F530A /* SettingsWindowController.m */,
+				D39D4E4715F92CDD003F530A /* SettingsWindowController.xib */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		BF8C7708846B59D045810460 /* API */ = {
@@ -169,6 +184,7 @@
 				BF8C72B419478D97B302DDC6 /* Services */,
 				BF8C7AFD999C5F14D8B64B42 /* Models */,
 				BF8C7708846B59D045810460 /* API */,
+				BF8C762A981665CF10AD3B15 /* Controllers */,
 			);
 			path = WeatherMenu;
 			sourceTree = "<group>";
@@ -275,6 +291,7 @@
 				D3B67C3315F236FA00F4E681 /* InfoPlist.strings in Resources */,
 				D3B67C3915F236FA00F4E681 /* Credits.rtf in Resources */,
 				D3B67C3F15F236FA00F4E681 /* MainMenu.xib in Resources */,
+				D39D4E4915F92CDD003F530A /* SettingsWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +317,7 @@
 				BF8C7CABC3CDA8AB2424D4D5 /* WeatherConditions.m in Sources */,
 				BF8C789AE86C249A972EE830 /* WorldWeatherOnlineService.m in Sources */,
 				BF8C7414BA32DC351615DAE5 /* WWOApiClient.m in Sources */,
+				D39D4E4815F92CDD003F530A /* SettingsWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

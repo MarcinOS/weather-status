@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "WorldWeatherOnlineService.h"
 #import "WeatherConditions.h"
+#import "SettingsWindowController.h"
 
 @implementation AppDelegate
 
@@ -27,7 +28,11 @@
     self.statusItem.highlightMode = YES;
     self.statusItem.title = @"...";
     self.statusItem.menu = self.menu;
-    
+}
+
+- (IBAction)settingsMenuClicked:(id)sender {
+	self.settingsWindowController = [[SettingsWindowController alloc] initWithWindowNibName:@"SettingsWindowController"];
+	[self.settingsWindowController showWindow:self];
 }
 
 @end
