@@ -36,7 +36,11 @@
 
 - (void)displayWeatherConditions:(WeatherConditions *)weatherConditions
 {
-	self.statusItem.title = [NSString stringWithFormat:@"%@ ºC", weatherConditions.tempC];
+	NSString *temperatureUnit = [[NSUserDefaults standardUserDefaults] stringForKey:TEMPERATURE_UNIT_SETTING_KEY];
+	NSString *temperatureUnitSymbol = [temperatureUnit substringToIndex:1];
+	NSNumber *temperature = [temperatureUnitSymbol isEqualToString:@"C"] ? weatherConditions.tempC : weatherConditions.tempF;
+
+	self.statusItem.title = [NSString stringWithFormat:@"%@ º%@", temperature, temperatureUnitSymbol];
 }
 
 @end

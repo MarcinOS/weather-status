@@ -8,7 +8,7 @@
 
 static NSString *const LOCATION_SETTING_KEY = @"Location";
 static NSString *const DAYS_NUMBER_SETTING_KEY = @"DaysNumber";
-static NSString *const TEMERATURE_UNIT_SETTING_KEY = @"TemperatureUnit";
+static NSString *const TEMPERATURE_UNIT_SETTING_KEY = @"TemperatureUnit";
 static NSString *const REFRESH_INTERVAL_SETTING_KEY = @"RefreshInterval";
 static NSString* REFRESH_INTERVAL_KEY_PATH = @"values.RefreshInterval";
 
