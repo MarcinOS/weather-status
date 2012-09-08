@@ -39,11 +39,11 @@ static NSString *const WEATHER_ENDPOINT = @"feed/weather.ashx";
 	return self;
 }
 
-- (void)currentConditionsIn:(NSString *)city forDays:(int)daysNo responseHandler:(void (^)(NSDictionary *))success
+- (void)currentConditionsIn:(NSString *)city forDays:(NSInteger)daysNo responseHandler:(void (^)(NSDictionary *))success
 {
 	NSMutableDictionary *params = [self createParams];
 	[params setObject:city forKey:@"q"];
-	[params setObject:[NSNumber numberWithInt:daysNo] forKey:@"num_of_days"];
+	[params setObject:[NSNumber numberWithLong:daysNo] forKey:@"num_of_days"];
 
 	[[WWOApiClient instance] getPath:WEATHER_ENDPOINT parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
 		NSError *error;

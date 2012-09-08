@@ -7,16 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "WeatherConditionDisplay.h"
 
 @class SettingsWindowController;
+@class DataRefreshService;
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, WeatherConditionDisplay>
 
-@property (assign) IBOutlet NSMenu *menu;
-@property (strong) NSStatusItem *statusItem;
+@property(assign) IBOutlet NSMenu *menu;
+@property(strong) NSStatusItem *statusItem;
 @property(strong) SettingsWindowController *settingsWindowController;
-
-- (void)showCurrentConditions;
-
+@property(strong) DataRefreshService *dataRefreshService;
 
 @end

@@ -12,7 +12,7 @@
 
 + (WWOApiClient *)instance;
 
-- (void)currentConditionsIn:(NSString *)city forDays:(int)daysNo responseHandler:(void (^)(NSDictionary *))success;
+- (void)currentConditionsIn:(NSString *)city forDays:(NSInteger)daysNo responseHandler:(void (^)(NSDictionary *))success;
 
 
 @end

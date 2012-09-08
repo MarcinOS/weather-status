@@ -8,6 +8,7 @@
 
 #import "SettingsWindowController.h"
 #import "AppDelegate.h"
+#import "DataRefreshService.h"
 
 @interface SettingsWindowController ()
 
@@ -34,7 +35,8 @@
 
 - (void)windowWillClose:(NSNotification *)notification
 {
-	[[NSApp delegate] showCurrentConditions];
+	AppDelegate *delegate = [NSApp delegate];
+	[delegate.dataRefreshService presentCurrentConditions];
 }
 
 @end
