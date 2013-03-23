@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B25F170035C140188A89EFA8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3518DBDB4A8E45EB9FB6CC0B /* libPods.a */; settings = {}; };
 		BF8C71779B27950B57BCB10F /* DataRefreshService.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C7C6347304B3795B95B33 /* DataRefreshService.m */; };
 		BF8C7414BA32DC351615DAE5 /* WWOApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C79986296310A032E5E63 /* WWOApiClient.m */; };
 		BF8C789AE86C249A972EE830 /* WorldWeatherOnlineService.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8C71F47B9C1B07CC5BE928 /* WorldWeatherOnlineService.m */; };
@@ -21,20 +22,12 @@
 		D3B67C3915F236FA00F4E681 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D3B67C3715F236FA00F4E681 /* Credits.rtf */; };
 		D3B67C3C15F236FA00F4E681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B67C3B15F236FA00F4E681 /* AppDelegate.m */; };
 		D3B67C3F15F236FA00F4E681 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B67C3D15F236FA00F4E681 /* MainMenu.xib */; };
-		D3B67C5C15F23F4B00F4E681 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B67C4815F23F4B00F4E681 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D3B67C5D15F23F4B00F4E681 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B67C4A15F23F4B00F4E681 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D3B67C5E15F23F4B00F4E681 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B67C4C15F23F4B00F4E681 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D3B67C5F15F23F4B00F4E681 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B67C4E15F23F4B00F4E681 /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D3B67C6015F23F4B00F4E681 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B67C5015F23F4B00F4E681 /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D3B67C6115F23F4B00F4E681 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B67C5215F23F4B00F4E681 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D3B67C6215F23F4B00F4E681 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B67C5515F23F4B00F4E681 /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D3B67C6315F23F4B00F4E681 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B67C5715F23F4B00F4E681 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D3B67C6415F23F4B00F4E681 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B67C5915F23F4B00F4E681 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D3B67C6515F23F4B00F4E681 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B67C5B15F23F4B00F4E681 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D3B67CC615F260DF00F4E681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B67C2D15F236FA00F4E681 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3518DBDB4A8E45EB9FB6CC0B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPods.a; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9304BFB6DE034134A3159E24 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		BF8C70C08BA82365624937EB /* WeatherConditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherConditions.m; sourceTree = "<group>"; };
 		BF8C71F47B9C1B07CC5BE928 /* WorldWeatherOnlineService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldWeatherOnlineService.m; sourceTree = "<group>"; };
 		BF8C725C9DA4042E3089D740 /* WWOApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWOApiClient.h; sourceTree = "<group>"; };
@@ -64,27 +57,6 @@
 		D3B67C3A15F236FA00F4E681 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3B67C3B15F236FA00F4E681 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D3B67C3E15F236FA00F4E681 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		D3B67C4715F23F4B00F4E681 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
-		D3B67C4815F23F4B00F4E681 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
-		D3B67C4915F23F4B00F4E681 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		D3B67C4A15F23F4B00F4E681 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		D3B67C4B15F23F4B00F4E681 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
-		D3B67C4C15F23F4B00F4E681 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
-		D3B67C4D15F23F4B00F4E681 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
-		D3B67C4E15F23F4B00F4E681 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
-		D3B67C4F15F23F4B00F4E681 /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
-		D3B67C5015F23F4B00F4E681 /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONUtilities.m; sourceTree = "<group>"; };
-		D3B67C5115F23F4B00F4E681 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
-		D3B67C5215F23F4B00F4E681 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
-		D3B67C5315F23F4B00F4E681 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		D3B67C5415F23F4B00F4E681 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
-		D3B67C5515F23F4B00F4E681 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
-		D3B67C5615F23F4B00F4E681 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		D3B67C5715F23F4B00F4E681 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		D3B67C5815F23F4B00F4E681 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
-		D3B67C5915F23F4B00F4E681 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
-		D3B67C5A15F23F4B00F4E681 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		D3B67C5B15F23F4B00F4E681 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +66,7 @@
 			files = (
 				D3B67CC615F260DF00F4E681 /* Foundation.framework in Frameworks */,
 				D3B67C2915F236FA00F4E681 /* Cocoa.framework in Frameworks */,
+				B25F170035C140188A89EFA8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,10 +127,10 @@
 		D3B67C1915F236FA00F4E681 = {
 			isa = PBXGroup;
 			children = (
-				D3B67C4515F23F4B00F4E681 /* Libs */,
 				D3B67C2E15F236FA00F4E681 /* WeatherMenu */,
 				D3B67C2715F236FA00F4E681 /* Frameworks */,
 				D3B67C2515F236FA00F4E681 /* Products */,
+				9304BFB6DE034134A3159E24 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,6 +147,7 @@
 			children = (
 				D3B67C2815F236FA00F4E681 /* Cocoa.framework */,
 				D3B67C2A15F236FA00F4E681 /* Other Frameworks */,
+				3518DBDB4A8E45EB9FB6CC0B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -216,42 +190,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D3B67C4515F23F4B00F4E681 /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-				D3B67C4615F23F4B00F4E681 /* AFNetworking */,
-			);
-			path = Libs;
-			sourceTree = "<group>";
-		};
-		D3B67C4615F23F4B00F4E681 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				D3B67C4715F23F4B00F4E681 /* AFHTTPClient.h */,
-				D3B67C4815F23F4B00F4E681 /* AFHTTPClient.m */,
-				D3B67C4915F23F4B00F4E681 /* AFHTTPRequestOperation.h */,
-				D3B67C4A15F23F4B00F4E681 /* AFHTTPRequestOperation.m */,
-				D3B67C4B15F23F4B00F4E681 /* AFImageRequestOperation.h */,
-				D3B67C4C15F23F4B00F4E681 /* AFImageRequestOperation.m */,
-				D3B67C4D15F23F4B00F4E681 /* AFJSONRequestOperation.h */,
-				D3B67C4E15F23F4B00F4E681 /* AFJSONRequestOperation.m */,
-				D3B67C4F15F23F4B00F4E681 /* AFJSONUtilities.h */,
-				D3B67C5015F23F4B00F4E681 /* AFJSONUtilities.m */,
-				D3B67C5115F23F4B00F4E681 /* AFNetworkActivityIndicatorManager.h */,
-				D3B67C5215F23F4B00F4E681 /* AFNetworkActivityIndicatorManager.m */,
-				D3B67C5315F23F4B00F4E681 /* AFNetworking.h */,
-				D3B67C5415F23F4B00F4E681 /* AFPropertyListRequestOperation.h */,
-				D3B67C5515F23F4B00F4E681 /* AFPropertyListRequestOperation.m */,
-				D3B67C5615F23F4B00F4E681 /* AFURLConnectionOperation.h */,
-				D3B67C5715F23F4B00F4E681 /* AFURLConnectionOperation.m */,
-				D3B67C5815F23F4B00F4E681 /* AFXMLRequestOperation.h */,
-				D3B67C5915F23F4B00F4E681 /* AFXMLRequestOperation.m */,
-				D3B67C5A15F23F4B00F4E681 /* UIImageView+AFNetworking.h */,
-				D3B67C5B15F23F4B00F4E681 /* UIImageView+AFNetworking.m */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,6 +200,7 @@
 				D3B67C2015F236FA00F4E681 /* Sources */,
 				D3B67C2115F236FA00F4E681 /* Frameworks */,
 				D3B67C2215F236FA00F4E681 /* Resources */,
+				CB4E2B2E55634BC3BD6C5549 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,6 +230,8 @@
 			mainGroup = D3B67C1915F236FA00F4E681;
 			productRefGroup = D3B67C2515F236FA00F4E681 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				D3B67C2315F236FA00F4E681 /* WeatherMenu */,
@@ -313,6 +254,24 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CB4E2B2E55634BC3BD6C5549 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3B67C2015F236FA00F4E681 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -320,16 +279,6 @@
 			files = (
 				D3B67C3515F236FA00F4E681 /* main.m in Sources */,
 				D3B67C3C15F236FA00F4E681 /* AppDelegate.m in Sources */,
-				D3B67C5C15F23F4B00F4E681 /* AFHTTPClient.m in Sources */,
-				D3B67C5D15F23F4B00F4E681 /* AFHTTPRequestOperation.m in Sources */,
-				D3B67C5E15F23F4B00F4E681 /* AFImageRequestOperation.m in Sources */,
-				D3B67C5F15F23F4B00F4E681 /* AFJSONRequestOperation.m in Sources */,
-				D3B67C6015F23F4B00F4E681 /* AFJSONUtilities.m in Sources */,
-				D3B67C6115F23F4B00F4E681 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				D3B67C6215F23F4B00F4E681 /* AFPropertyListRequestOperation.m in Sources */,
-				D3B67C6315F23F4B00F4E681 /* AFURLConnectionOperation.m in Sources */,
-				D3B67C6415F23F4B00F4E681 /* AFXMLRequestOperation.m in Sources */,
-				D3B67C6515F23F4B00F4E681 /* UIImageView+AFNetworking.m in Sources */,
 				BF8C7CABC3CDA8AB2424D4D5 /* WeatherConditions.m in Sources */,
 				BF8C789AE86C249A972EE830 /* WorldWeatherOnlineService.m in Sources */,
 				BF8C7414BA32DC351615DAE5 /* WWOApiClient.m in Sources */,
@@ -420,6 +369,7 @@
 		};
 		D3B67C4315F236FA00F4E681 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9304BFB6DE034134A3159E24 /* Pods.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -432,6 +382,7 @@
 		};
 		D3B67C4415F236FA00F4E681 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9304BFB6DE034134A3159E24 /* Pods.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
