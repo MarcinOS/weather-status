@@ -8,9 +8,9 @@
 #import "AFNetworking.h"
 
 
-static NSString *const API_KEY = @"3aa31be000131359120109";
+static NSString *const API_KEY = @"ay4bmetjz74hhkb44jjdyhpy";
 static NSString *const FORMAT = @"json";
-static NSString *const WEATHER_ENDPOINT = @"feed/weather.ashx";
+static NSString *const WEATHER_ENDPOINT = @"weather.ashx";
 
 @implementation WWOApiClient {
 
@@ -31,7 +31,7 @@ static NSString *const WEATHER_ENDPOINT = @"feed/weather.ashx";
 
 - (id)initWithBaseURL
 {
-	self = [super initWithBaseURL:[[NSURL alloc] initWithString:@"http://free.worldweatheronline.com"]];
+	self = [super initWithBaseURL:[[NSURL alloc] initWithString:@"http://api.worldweatheronline.com/free/v1/"]];
 	if (self) {
 		[self registerHTTPOperationClass:[AFJSONRequestOperation class]];
 	}
